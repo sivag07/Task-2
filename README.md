@@ -10,6 +10,7 @@ Subnet 2 shouldn't be accessed directly from the internet and should only have i
 
 Subnet 3 should only be accessible from subnet 2 with no outbound internet connectivity.
 
+
 End result:
 
 Create a bastion host in Subnet 1 - This server (Bastion server) should be responsible for accessing a server ( Server App) that you will have to create in subnet 2.
